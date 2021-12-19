@@ -1,0 +1,25 @@
+{
+  "coc.preferences.colorSupport": false,
+  "coc.preferences.extensionUpdateCheck": "weekly",
+  "coc.preferences.formatOnSaveFiletypes": [
+    "elixir",
+    "json",
+    "js",
+    "javascript",
+    "ex",
+    "heex"
+  ],
+  "coc.preferences.useQuickfixForLocations": true,
+  "codeLens.enable": true,
+  "diagnostic.messageTarget": "float",
+  "diagnostic.enableMessage": "always",
+  "diagnostic.checkCurrentLine": true,
+  "eslint.autoFixOnSave": true,
+  "javascript.format.enabled": true,
+  "suggest.enablePreview": true,
+  "suggest.languageSourcePriority": 100,
+  "suggest.localityBonus": false,
+  "suggest.minTriggerInputLength":1,
+  "suggest.noselect": false,
+  "suggest.removeDuplicateItems": true
+} 

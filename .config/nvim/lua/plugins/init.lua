@@ -43,4 +43,7 @@ return require('packer').startup(function()
 
   -- Utils
   use 'folke/which-key.nvim'
+
+  -- Buffers
+  use {'rmagatti/auto-session'}
 end)

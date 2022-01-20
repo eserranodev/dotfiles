@@ -8,3 +8,4 @@ vim.g.floaterm_opener = 'edit'
 vim.cmd[[hi FloatermBorderNF guibg='#4c556a' guifg='#ABB9CF']]
 
 vim.api.nvim_set_keymap("n", "<Leader>t", ":FloatermToggle<CR>", {silent = true})
+vim.api.nvim_set_keymap("t", "<Leader>t", "<C-\\><C-n>:FloatermToggle<CR>", {silent = true})

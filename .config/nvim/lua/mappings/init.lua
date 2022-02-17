@@ -3,10 +3,10 @@ vim.api.nvim_set_keymap("n", "<TAB><TAB>", "<c-^>", {})
 
 -- Save file
 vim.cmd[[nnoremap <leader>s :w<cr>]]
-vim.cmd[[inoremap <leader>s <C-c>:w<cr>]]
 
 -- Quit editor
-vim.cmd[[noremap <leader>q :q<cr>]]
+vim.cmd[[noremap <leader>q. :q<cr>]]
+vim.cmd[[noremap <leader>qa :qa<cr>]]
 
 -- Window movement
 vim.api.nvim_set_keymap("n", "gn", ":bnext<CR>", {})

@@ -6,10 +6,10 @@ return require('packer').startup(function()
 
   -- Themes
   use 'arcticicestudio/nord-vim'
+  use 'embark-theme/vim'
 
   -- Terminal
   use 'voldikss/vim-floaterm'
-  use 'embark-theme/vim'
 
   -- Coding
   use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
@@ -27,6 +27,7 @@ return require('packer').startup(function()
     }
   }
   use 'tpope/vim-projectionist'
+  use 'danilamihailov/beacon.nvim'
 
   -- Git
   use 'tpope/vim-fugitive'
@@ -46,4 +47,5 @@ return require('packer').startup(function()
 
   -- Buffers
   use {'rmagatti/auto-session'}
+  use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
 end)

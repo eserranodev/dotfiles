@@ -4,6 +4,7 @@ require('mappings')
 
 require('autopairs-config')
 require('blamer-config')
+require('bufferline-config')
 require('coc-config')
 require('floaterm-config')
 require('fugitive-config')

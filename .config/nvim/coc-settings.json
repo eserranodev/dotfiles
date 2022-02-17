@@ -21,5 +21,11 @@
   "suggest.localityBonus": false,
   "suggest.minTriggerInputLength":1,
   "suggest.noselect": false,
-  "suggest.removeDuplicateItems": true
+  "suggest.removeDuplicateItems": true,
+  "languageserver": {
+    "elixir": {
+      "command": "/Users/enrique/.config/nvim/elixir-ls/release/language_server.sh",
+      "filetypes": ["elixir", "eelixir"]
+    }
+  }
 } 

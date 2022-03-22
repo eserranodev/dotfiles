@@ -5,7 +5,7 @@ vim.o.encoding = 'utf-8'
 
 -- Theme and styling
 vim.opt.termguicolors = true
-vim.opt.guifont = "Fira Code:h14"
+vim.opt.guifont = "Fira Code:h13"
 vim.cmd[[
 colorscheme embark
 highlight CursorLine ctermfg=black

@@ -25,3 +25,69 @@ require("which-key").setup({
     winblend = 10
   },
 })
+
+require("which-key").register({
+  b = {
+    name = "buffer",
+    d = {":bd<CR>", "delete"},
+    n = {":BufferLineCycleNext<CR>", "next"},
+    p = {":BufferLineCyclePrev<CR>", "previous"}
+  },
+  c = {
+    name = "code",
+    a = {
+      name = "alternate file",
+      c = {"<cmd>A<CR>", "current view"},
+      h = {"<cmd>AS<CR>", "horizontally"},
+      v = {"<cmd>AV<CR>", "vertically"}
+    },
+    c = {
+      name = "comment",
+      l = "line",
+      b = "block"
+    },
+    t = {
+      name = "test",
+      f = {"<cmd>TestFile<CR>", "file"},
+      l = {"<cmd>TestLast<CR>", "last"},
+      n = {"<cmd>TestNearest<CR>", "nearest"},
+      s = {"<cmd>TestSuite<CR>", "suite"},
+      v = {"<cmd>TestVisit<CR>", "visit"}
+    }
+  },
+  f = {
+    name = "find",
+    a = {":Telescope live_grep<CR>", "text"},
+    b = {":Telescope buffers<CR>", "buffers"},
+    d = {":noh<CR>", "delete search"},
+    f = {":Telescope find_files<CR>", "files"},
+    h = {":Telescope oldfiles<CR>", "last files"},
+    m = {":Telescope marks<CR>", "marks"},
+    y = {":Telescope registers<CR>", "registers"}
+  },
+  g = {
+    name = "git",
+    a = {"<cmd>Gwrite<CR>", "add"},
+    b = {"<cmd>Git blame<CR>", "blame"},
+    c = {"<cmd>Git commit<CR>", "commit"},
+    d = {"<cmd>Git diff<CR>", "diff"},
+    g = {"<cmd>Git pull<CR>", "pull"},
+    k = {"<cmd>Gread<CR>", "read"},
+    l = {"<cmd>Gclog<CR>", "log"},
+    s = {"<cmd>G<CR>", "status"},
+    p = {"<cmd>Git push<CR>", "push"}
+  },
+  q = {
+    name = "quit",
+    a = {":qa<CR>", "all"},
+    c = {":q<CR>", "current"}
+  },
+  s = {":w<CR>", "save current buffer"},
+  w = {
+    name = "window",
+    h = {"<C-w>h", "move to the left"},
+    j = {"<C-w>j", "move down"},
+    k = {"<C-w>k", "move up"},
+    l = {"<C-w>l", "move to the right"}
+  }
+}, { prefix = "<leader>" })

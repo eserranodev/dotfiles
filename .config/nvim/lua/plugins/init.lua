@@ -28,6 +28,7 @@ return require('packer').startup(function()
   }
   use 'tpope/vim-projectionist'
   use 'danilamihailov/beacon.nvim'
+  use 'terrortylor/nvim-comment'
 
   -- Git
   use 'tpope/vim-fugitive'

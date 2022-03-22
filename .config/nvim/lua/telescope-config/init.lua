@@ -25,11 +25,3 @@ require('telescope').setup({
     }
   }
 })
-
-vim.cmd[[nmap <Leader>f :Telescope find_files<CR>]]
-vim.cmd[[nmap <Leader>b :Telescope buffers<CR>]]
-vim.cmd[[nmap <Leader>' :Telescope marks<CR>]]
-vim.cmd[[nmap <Leader>y :Telescope registers<CR>]]
-vim.cmd[[nmap <Leader>h :Telescope oldfiles<CR>]]
-vim.cmd[[nmap <Leader>m :Telescope git_status<CR>]]
-vim.cmd[[nmap <Leader>a :Telescope live_grep<CR>]]

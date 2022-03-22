@@ -1,8 +1,0 @@
-vim.api.nvim_set_keymap('n', '<leader>gs', '<cmd>G<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>gc', '<cmd>Git commit<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>ga', '<cmd>Gwrite<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>gk', '<cmd>Gread<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>ggl', '<cmd>Git pull<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>gp', '<cmd>Git push<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>gb', '<cmd>Git blame<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<leader>glg', '<cmd>Gclog<CR>', { noremap = true, silent = true })

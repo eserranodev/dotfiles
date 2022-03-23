@@ -33,6 +33,7 @@ return require('packer').startup(function()
   -- Git
   use 'tpope/vim-fugitive'
   use 'APZelos/blamer.nvim'
+  use 'airblade/vim-gitgutter'
 
   -- Files
   use {

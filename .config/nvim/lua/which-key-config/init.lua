@@ -72,6 +72,11 @@ require("which-key").register({
     c = {"<cmd>Git commit<CR>", "commit"},
     d = {"<cmd>Git diff<CR>", "diff"},
     g = {"<cmd>Git pull<CR>", "pull"},
+    h = {
+      name = "hunk",
+      n = {":GitGutterNextHunk<CR>", "next"},
+      p = {":GitGutterPrevHunk<CR>", "previous"}
+    },
     k = {"<cmd>Gread<CR>", "read"},
     l = {"<cmd>Gclog<CR>", "log"},
     s = {"<cmd>G<CR>", "status"},

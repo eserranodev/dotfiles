@@ -17,6 +17,13 @@ require('telescope').setup({
         ["<C-k>"] = actions.move_selection_previous,
         ["<esc>"] = actions.close
       }
+    },
+    file_ignore_patterns = {
+      "._build/",
+      ".cover/",
+      ".deps/",
+      ".elixir_ls/",
+      ".git/"
     }
   },
   pickers = {

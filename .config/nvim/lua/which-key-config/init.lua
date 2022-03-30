@@ -60,7 +60,7 @@ require("which-key").register({
     a = {":Telescope live_grep<CR>", "text"},
     b = {":Telescope buffers<CR>", "buffers"},
     d = {":noh<CR>", "delete search"},
-    f = {":Telescope find_files<CR>", "files"},
+    f = {":Telescope find_files hidden=true<CR>", "files"},
     h = {":Telescope oldfiles<CR>", "last files"},
     m = {":Telescope marks<CR>", "marks"},
     y = {":Telescope registers<CR>", "registers"}

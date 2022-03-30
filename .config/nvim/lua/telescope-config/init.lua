@@ -23,7 +23,8 @@ require('telescope').setup({
       ".cover/",
       ".deps/",
       ".elixir_ls/",
-      ".git/"
+      ".git/",
+      ".node_modules/"
     }
   },
   pickers = {

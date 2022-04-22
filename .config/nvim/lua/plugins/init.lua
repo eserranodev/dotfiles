@@ -49,5 +49,5 @@ return require('packer').startup(function()
 
   -- Buffers
   use {'rmagatti/auto-session'}
-  use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
+  use {'akinsho/bufferline.nvim', tag = "*", requires = 'kyazdani42/nvim-web-devicons'}
 end)

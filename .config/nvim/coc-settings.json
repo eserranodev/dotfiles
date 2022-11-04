@@ -7,7 +7,8 @@
     "js",
     "javascript",
     "ex",
-    "heex"
+    "heex",
+    "go"
   ],
   "coc.preferences.useQuickfixForLocations": true,
   "codeLens.enable": true,
@@ -26,6 +27,18 @@
     "elixir": {
       "command": "/Users/enrique/.config/nvim/elixir-ls/release/language_server.sh",
       "filetypes": ["elixir", "eelixir"]
+    },
+    "golang": {
+      "command": "gopls",
+      "filetypes": ["go"],
+      "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
     }
-  }
+  },
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "/Users/enrique/.nvim/plugged/vim-snippets/UltiSnips"
+  ]
 } 

@@ -7,13 +7,14 @@ return require('packer').startup(function()
   -- Themes
   use 'arcticicestudio/nord-vim'
   use 'embark-theme/vim'
+  use 'EdenEast/nightfox.nvim'
 
   -- Terminal
   use 'voldikss/vim-floaterm'
 
   -- Coding
   use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
-  use {'neoclide/coc.nvim', branch = 'release'}
+  use {'neoclide/coc.nvim', commit = '6f3e31e'}
   use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/plenary.nvim'}}}
   use 'fannheyward/telescope-coc.nvim'
   use 'windwp/nvim-autopairs'
@@ -29,6 +30,12 @@ return require('packer').startup(function()
   use 'tpope/vim-projectionist'
   use 'danilamihailov/beacon.nvim'
   use 'terrortylor/nvim-comment'
+  use 'honza/vim-snippets'
+  -- install without yarn or npm
+  use({
+      "iamcco/markdown-preview.nvim",
+      run = function() vim.fn["mkdp#util#install"]() end,
+  })
 
   -- Git
   use 'tpope/vim-fugitive'

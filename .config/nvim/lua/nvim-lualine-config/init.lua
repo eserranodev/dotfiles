@@ -1,6 +1,6 @@
 require('lualine').setup({
   options = {
-    theme = 'nord'
+    theme = 'nordfox'
   },
   sections = {
     lualine_b = {'branch', 'diff', 'diagnostics'},

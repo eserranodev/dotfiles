@@ -14,7 +14,7 @@ return require('packer').startup(function()
 
   -- Coding
   use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
-  use {'neoclide/coc.nvim', commit = '6f3e31e'}
+  use {'neoclide/coc.nvim', commit = '4782e76'}
   use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/plenary.nvim'}}}
   use 'fannheyward/telescope-coc.nvim'
   use 'windwp/nvim-autopairs'

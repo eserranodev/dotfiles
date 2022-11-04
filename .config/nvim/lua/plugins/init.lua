@@ -21,7 +21,6 @@ return require('packer').startup(function()
   use 'tpope/vim-surround'
   use 'vim-test/vim-test'
   use 'elixir-editors/vim-elixir'
-  use 'luochen1990/rainbow'
   use {
     'nvim-lualine/lualine.nvim', requires = {
       'kyazdani42/nvim-web-devicons', opt = true

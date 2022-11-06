@@ -5,8 +5,6 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
 
   -- Themes
-  use 'arcticicestudio/nord-vim'
-  use 'embark-theme/vim'
   use 'EdenEast/nightfox.nvim'
 
   -- Terminal
@@ -14,7 +12,7 @@ return require('packer').startup(function()
 
   -- Coding
   use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
-  use {'neoclide/coc.nvim', commit = '4782e76'}
+  use {'neoclide/coc.nvim', commit = '6f3e31e'}
   use {'nvim-telescope/telescope.nvim', requires = {{'nvim-lua/plenary.nvim'}}}
   use 'fannheyward/telescope-coc.nvim'
   use 'windwp/nvim-autopairs'

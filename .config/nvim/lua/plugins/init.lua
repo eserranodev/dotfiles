@@ -33,6 +33,8 @@ return require('packer').startup(function()
       "iamcco/markdown-preview.nvim",
       run = function() vim.fn["mkdp#util#install"]() end,
   })
+  use {'phaazon/hop.nvim', branch = 'v2'}
+
 
   -- Git
   use 'tpope/vim-fugitive'

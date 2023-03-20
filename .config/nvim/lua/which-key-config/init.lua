@@ -82,6 +82,14 @@ require("which-key").register({
     s = {"<cmd>G<CR>", "status"},
     p = {"<cmd>Git push<CR>", "push"}
   },
+  h = {
+    name = "hop",
+    c = {"<cmd>:HopChar2<CR>", "char"},
+    l = {"<cmd>:HopLine<CR>", "line"},
+    p = {"<cmd>:HopPattern<CR>", "pattern"},
+    v = {"<cmd>:HopVertical<CR>", "vertical"},
+    w = {"<cmd>:HopWord<CR>", "word"}
+  },
   q = {
     name = "quit",
     a = {":qa<CR>", "all"},

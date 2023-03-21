@@ -25,7 +25,7 @@
   "suggest.removeDuplicateItems": true,
   "languageserver": {
     "elixir": {
-      "command": "/Users/enrique/.config/nvim/elixir-ls/release/language_server.sh",
+      "command": "$HOME/.elixir-ls/release/language_server.sh",
       "filetypes": ["elixir", "eelixir"]
     },
     "golang": {
@@ -39,6 +39,6 @@
   },
   "snippets.ultisnips.directories": [
     "UltiSnips",
-    "/Users/enrique/.nvim/plugged/vim-snippets/UltiSnips"
+    "$HOME/.nvim/plugged/vim-snippets/UltiSnips"
   ]
 } 

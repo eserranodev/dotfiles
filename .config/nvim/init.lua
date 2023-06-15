@@ -3,6 +3,7 @@ require('options')
 require('mappings')
 
 require('autopairs-config')
+require('auto-session-config')
 require('blamer-config')
 require('bufferline-config')
 require('coc-config')

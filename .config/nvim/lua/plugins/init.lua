@@ -5,7 +5,7 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
 
   -- Themes
-  use 'EdenEast/nightfox.nvim'
+  use { 'embark-theme/vim', as = 'embark' }
 
   -- Terminal
   use 'voldikss/vim-floaterm'
@@ -19,11 +19,7 @@ return require('packer').startup(function()
   use 'tpope/vim-surround'
   use 'vim-test/vim-test'
   use 'elixir-editors/vim-elixir'
-  use {
-    'nvim-lualine/lualine.nvim', requires = {
-      'kyazdani42/nvim-web-devicons', opt = true
-    }
-  }
+  use 'nvim-lualine/lualine.nvim'
   use 'tpope/vim-projectionist'
   use 'danilamihailov/beacon.nvim'
   use 'terrortylor/nvim-comment'
@@ -34,7 +30,7 @@ return require('packer').startup(function()
       run = function() vim.fn["mkdp#util#install"]() end,
   })
   use {'phaazon/hop.nvim', branch = 'v2'}
-
+  use 'fatih/vim-go'
 
   -- Git
   use 'tpope/vim-fugitive'
@@ -42,18 +38,13 @@ return require('packer').startup(function()
   use 'airblade/vim-gitgutter'
 
   -- Files
-  use {
-    'kyazdani42/nvim-tree.lua',
-    requires = {
-      'kyazdani42/nvim-web-devicons', -- optional, for file icon
-    },
-    config = function() require'nvim-tree'.setup {} end
-  }
+  use 'nvim-tree/nvim-web-devicons'
+  use 'nvim-tree/nvim-tree.lua'
 
   -- Utils
   use 'folke/which-key.nvim'
 
   -- Buffers
-  use {'rmagatti/auto-session'}
-  use {'akinsho/bufferline.nvim', tag = "*", requires = 'kyazdani42/nvim-web-devicons'}
+  use 'rmagatti/auto-session'
+  use {'akinsho/bufferline.nvim', tag = "*"}
 end)

@@ -1,6 +1,6 @@
 require('lualine').setup({
   options = {
-    theme = 'nordfox'
+    theme = 'embark'
   },
   sections = {
     lualine_b = {'branch', 'diff', 'diagnostics'},

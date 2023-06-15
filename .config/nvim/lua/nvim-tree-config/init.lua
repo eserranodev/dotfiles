@@ -2,7 +2,15 @@ require('nvim-tree').setup({
   disable_netrw = false,
   hijack_netrw = false,
   view = {
+    float = {
+      enable = true,
+    },
+    number = true,
+    relativenumber = true,
     side = 'left',
+    width = {
+      max = -1
+    }
   },
   renderer = {
     icons = {

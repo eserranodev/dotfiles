@@ -9,8 +9,8 @@ require('telescope').setup({
       prompt_position = "top",
     },
     sorting_strategy = "ascending",
-    color_devicons = false,
-    disable_devicons = true,
+    color_devicons = true,
+    disable_devicons = false,
     mappings = {
       i = {
         ["<C-j>"] = actions.move_selection_next,

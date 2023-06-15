@@ -7,7 +7,7 @@ vim.o.encoding = 'utf-8'
 vim.opt.termguicolors = true
 vim.opt.guifont = "Fira Code:h13"
 vim.cmd[[
-colorscheme nordfox
+colorscheme embark
 highlight CursorLine ctermfg=black
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 ]]
